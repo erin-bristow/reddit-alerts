@@ -7,7 +7,7 @@ def pull_regexes():
 
     # the purpose of this program - identify service-related issues!
     # this is just a sample
-    # to do: test more specific matches like: 'blackboard AND (outage OR \bdown\b OR error OR ......)
+    # to do: test more specific matches like: 'blackboard AND (outage OR \bdown\b OR error OR ......)'
     re.compile(r'\bwifi\b', re.I), 
     re.compile(r'outage', re.I),
     re.compile(r'blackboard', re.I),
