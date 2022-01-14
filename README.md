@@ -7,8 +7,8 @@ Using a virtual environment in an Anaconda Prompt is a good way to simplify Pyth
 Creating and entering a virtual environment in Anaconda:
 
 '''
-  > conda create --name reddit python=3.6
-  > conda activate reddit
+  conda create --name reddit python=3.6
+  conda activate reddit
 '''
 
 The Flair library is based on Python 3.6 but has support for higher versions. If you prefer to use a higher version, that should be fine.
@@ -16,9 +16,9 @@ The Flair library is based on Python 3.6 but has support for higher versions. If
 Then install the following dependencies:
 
 '''
-  > pip install praw
-  > pip install pytz
-  > pip install flair
+  pip install praw
+  pip install pytz
+  pip install flair
 '''
 
 
