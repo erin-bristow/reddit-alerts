@@ -92,6 +92,7 @@ def post_printing_format(submission):
 	file.write("\n")
 	timestamp = print_convert_timestamp(submission.created_utc)
 	file.write(timestamp)
+	file.write("\n")
 	file.write("---------------------------------------------------------------------------------------------------------\n")
 	file.write("\n")
 	file.write("\n")
