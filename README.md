@@ -34,7 +34,7 @@ Run the program with the below command:
 py -O main.py
 ```
 
-Currently, the function flagged_posts() in main.py will output posts that match the regexes in regex_list.py, and display the sentiment analysis of the post body and title (positive/negative). This information will be placed in posts.txt. There is a posts.txt file in this repository if you would like to view an example.
+Currently, the function flagged_posts() in main.py will output posts that match the regexes in regex_list.py, and display the sentiment analysis of the post body and title (positive/negative). This information will be placed in posts.txt. There is a posts.txt file in this repository if you would like to view an example. The example was run by searching the last 100 posts in reddit.com/r/USC for the keyword 'blackboard'.
 
 If you run the above command omitting the -O flag, the output will be displayed in the terminal in addition to in posts.txt.
 
