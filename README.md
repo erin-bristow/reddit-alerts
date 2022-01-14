@@ -36,7 +36,7 @@ py -O main.py
 
 Currently, the function flagged_posts() in main.py will output posts that match the regexes in regex_list.py, and display the sentiment analysis of the post body and title (positive/negative). This information will be placed in posts.txt. There is a posts.txt file in this repository if you would like to view an example.
 
-If you run the below command omitting the -O flag, the output will be displayed in the terminal in addition to in posts.txt.
+If you run the above command omitting the -O flag, the output will be displayed in the terminal in addition to in posts.txt.
 
 ```
 py main.py
@@ -45,6 +45,6 @@ py main.py
 ## Development
 - Integrate with Slack, rather than sending updates via email
 - Find more regular expressions related to service issues
-  - Use these regexes in combination with others, something like 'blackboard AND (outage OR \bdown\b OR error OR ......)'
+  - Use these regexes in combination with others, something like 'blackboard AND (outage OR \bdown\b OR error OR ..)'
 - Decide how to use the NLP sentiment analysis data to filter and report posts based on displayed negativity
 
