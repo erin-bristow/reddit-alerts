@@ -11,7 +11,7 @@ conda create --name reddit python=3.6
 conda activate reddit
 ```
 
-The [Natural Language Processing (NLP) framework Flair](https://github.com/flairNLP/flair) is based on Python 3.6 but has support for higher versions. If you prefer to use a higher version, that should be fine.
+The Natural Language Processing (NLP) framework [Flair](https://github.com/flairNLP/flair) is based on Python 3.6 but has support for higher versions. If you prefer to use a higher version, that should be fine.
 
 The following dependencies are required:
 
