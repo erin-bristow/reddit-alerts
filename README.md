@@ -21,6 +21,8 @@ pip install pytz
 pip install flair
 ```
 
+Praw has good documentation on using the Reddit API. Here is their [Quick Start guide](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html). We will be using an OAuth authentication method called [Password Flow](https://praw.readthedocs.io/en/stable/getting_started/authentication.html#password-flow). Collect the necessary information (Client ID, Client Secret, User Agent, and the username and password of a Reddit account) and paste it into the fields in the reddit_init() function in settings.py. 
 
-
+## Example Usage
+This project isn't finished yet. Currently, the function flagged_posts() in main.py will return posts that match the regexes in regex_list.py.
 
