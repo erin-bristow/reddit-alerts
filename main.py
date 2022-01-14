@@ -27,7 +27,7 @@ subreddit = reddit.subreddit("USC")
 #
 
 # write to file (probably shouldn't declare it here, will fix later)
-file = open('posts.md', 'w+')
+file = open('posts.txt', 'w+')
 
 # format the timestamp of Reddit post/comment
 def print_convert_timestamp(utc):
@@ -40,7 +40,7 @@ def print_convert_timestamp(utc):
 
 def send_email():
 
-    email_file = open('posts.md', 'r')
+    email_file = open('posts.txt', 'r')
 
     email = EmailMessage()
     email["From"] = "email@email.com"
